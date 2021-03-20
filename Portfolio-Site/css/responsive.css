@@ -1,0 +1,93 @@
+@media(min-width:992px) and (max-width:1199px) { /* lg device */
+    
+
+
+
+  
+    
+}/* lg device */
+
+
+@media(min-width:768px) and (max-width:991px) { /* md device */
+   
+   
+
+
+
+}/* md device */
+
+
+
+@media(min-width:576px) and (max-width:767px) { /* sm device */
+  
+   
+
+
+
+
+
+}/* sm device */
+
+
+
+
+@media(max-width:575px) { /* xs device */
+   
+
+
+    
+
+} /* xs device */
+
+
+
+
+@media(max-width:375px){
+
+
+}
+
+/* expreance section */
+
+@media(max-width: 767px){
+	.timeline-items::before{
+		left: 7px;
+	}
+	.timeline-item:nth-child(odd){
+		padding-right: 0;
+		text-align: left;
+	}
+	.timeline-item:nth-child(odd),
+	.timeline-item:nth-child(even){
+		padding-left: 37px;
+	}
+	.timeline-dot{
+		left:0;
+	}
+}
+
+/* pricing  part  */
+@media(max-width: 991px){
+	.pricing .pricing-table{
+		width: calc(50% - 30px);
+		margin-bottom: 30px;
+	}
+}
+@media(max-width: 767px){
+	.pricing .pricing-table{
+		width: calc(100% - 30px);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
