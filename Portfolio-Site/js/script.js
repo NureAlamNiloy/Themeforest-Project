@@ -1,7 +1,21 @@
 $(function () {
 	"use strict";
 
+	// portfolio Paga Start
 
+	$('.portfolio-nav button').click(function(){
+        $('.portfolio-nav button').removeClass('active');
+        $(this).addClass('active');
+    });
+
+	// mixitup
+    var mixer = mixitup('.filter_head');
+
+	
+
+	// portfolio Paga End
+
+	
 
 
 	// home page Typed js
@@ -30,7 +44,17 @@ $(function () {
         scale: 1.03 ,
     })
 
+
+
+
+
+
+
 });    
+
+
+
+
 
       // Pricing Part 
     
