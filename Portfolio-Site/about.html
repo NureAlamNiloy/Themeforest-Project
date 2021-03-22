@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project File</title>
 
+  
     <!-- Link Fav icon -->
-    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="shortcut icon" href="images/logo-2.png" type="image/x-icon">
     <!-- Link google font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -16,14 +17,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- link Slick Slider -->
     <link rel="stylesheet" href="css/slick.css">
+    <!-- link animation css -->
+    <link rel="stylesheet" href="css/animate.css">
     <!-- link bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- link default css -->
-    <link rel="stylesheet" href="css/default-2.css">
     <!-- link style css -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Link responsive css -->
     <link rel="stylesheet" href="css/responsive.css">
+
 
 </head>
 <body>
@@ -31,7 +33,7 @@
 
 <!-- Navbar Start -->
 
-    <div class="navigation position-fixed">
+    <div class="navigation position-fixed d-none d-lg-inline-block">
         <ul>
             <li>
                 <a href="index.html">
@@ -73,6 +75,33 @@
     </div>
 
 <!-- Navbar End -->
+
+<!-- Mobile Menu Start -->
+
+    <header class="header d-lg-none">
+        <div class="container">
+            <div class="row justify-content-end align-items-center">
+                <button type="button" class="open-nav">
+                    <span></span>
+                </button>
+                <nav class="nav justify-content-center">
+                    <button type="button" class="close-nav">&times;</button>
+                    <div class="nav-inner">
+                        <ul>
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="about.html">about</a></li>
+                            <li><a href="service.html">services</a></li>
+                            <li><a href="portfolio.html">portfolio</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+<!-- mobile Menu End -->
 
     <div class="page-heading">
         <span>About</span>
@@ -491,15 +520,18 @@
     </div>
 -->
 
-    <!-- Link Jquery -->
+     <!-- Link Jquery -->
     <script src="js/jquery-1.12.4.min.js"></script>
     <!-- link Couter plugin -->
     <script src="js/jquery.counterup.min.js"></script>
     <script src="js/waypoints.min.js"></script>
     <!-- Typed Js -->
     <script src="js/typed.js"></script>
+    <script src="js/typedscript.js"></script>
     <!-- Slick slider plugin -->
     <script src="js/slick.min.js"></script>
+    <!-- wow js -->
+    <script src="js/wow.min.js"></script>
     <!-- link tilt js -->
     <script src="js/tilt.jquery.min.js"></script>
     <!-- Link bootstrap js -->
