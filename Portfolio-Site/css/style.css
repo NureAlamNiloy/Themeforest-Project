@@ -50,7 +50,6 @@ Version: 2345
     
     
 }
-/* clip-path: polygon(50% 13%, 79% 17%, 100% 35%, 100% 67%, 80% 84%, 48% 85%, 19% 71%, 1% 51%, 5% 35%, 21% 21%); */
 
 *{
     margin: 0;
@@ -565,9 +564,8 @@ text-indent: 0px;
     background-color: var(--lighti-color);
 }
 .skill-bar .progress-bar{
-    background-color: var(--main-color);
+    background-color: #ffc107;
 }
-.skill-bar{}
 
 /* Skill Part End */
 
@@ -640,8 +638,6 @@ text-indent: 0px;
 }
 
 /* Testimonial Part End */
-
-
 
 
 /* ============================ B. Home Page==================================== */
@@ -945,7 +941,7 @@ footer{
 }
 .footer-nav ul li{
     display: inline-block;
-    margin: 0 20px;
+    margin: 15px 20px;
 }
 .footer-nav ul li a{
     color: var(--pg-color);
@@ -982,7 +978,7 @@ footer{
 .copyright a{
     color: var(--main-color);
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 /*  Footer Part End */
@@ -1404,7 +1400,6 @@ footer{
 }
 .contact-card{
     padding:40px 20px;
-    /* border: 1px solid var(--main-color); */
     background: var(--bg-color-3);
     box-shadow:  5px 5px 10px #0c0c0c,
              -5px -5px 10px #2e2e2e;
@@ -1468,12 +1463,11 @@ footer{
 
 /* Contact Part End */
 
-
 /* ============================ C. Contact Page==================================== */
 
 
-/* ============================ C. Blog Page==================================== */
 
+/* ============================ C. Blog Page==================================== */
 
 /* Blog Part Start */
 
@@ -1483,7 +1477,6 @@ footer{
 
 .card{
     background-color: var(--bg-color);
-    /* margin: 30px; */
     width: 92%;
     height: 444px;
 }
@@ -1593,7 +1586,6 @@ footer{
 
 
 /* Blog Part End */
-
 
 
 /*Blog Details Part Start */
@@ -1835,8 +1827,8 @@ footer{
     -o-transform: scale(1);
 }
 .vbox-figlio{
-    height: 550px !important;
-    width: auto !important;
+    height: auto !important;
+    width: 800px !important;
 }
 .vbox-close{
     font-size: 40px;
@@ -1846,7 +1838,6 @@ footer{
 .vbox-next{
     margin: 0 20px;
 }
-
 
 /* Portfolio Part End */
 
