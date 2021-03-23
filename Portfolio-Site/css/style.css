@@ -466,7 +466,6 @@ text-indent: 0px;
 /* main part Start */
 
 #main{
-    height: 100vh;
     align-items: center;
     padding: 20px 0;
 }
@@ -495,8 +494,7 @@ text-indent: 0px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    height: 95vh;
-    
+    height: 95vh; 
 }
 
 .main-content h5{
@@ -548,6 +546,30 @@ text-indent: 0px;
 
 
 /* main part End */
+
+
+/* Skill Part Start */
+
+#skill{
+    padding: 70px 0;
+}
+.skill-bar{
+    padding: 28px 30px 0 0;
+}
+.skill-bar h5{
+    text-transform: uppercase;
+    padding-bottom: 13px;
+    color: var(--pg-color);
+}
+.skill-bar .progress{
+    background-color: var(--lighti-color);
+}
+.skill-bar .progress-bar{
+    background-color: var(--main-color);
+}
+.skill-bar{}
+
+/* Skill Part End */
 
 
 /* Testimonial Part Start */
@@ -877,7 +899,7 @@ text-indent: 0px;
 #faq{
     margin-top: 50px;
     padding: 70px 0;
-    background-color: var(--bg-color-3);
+    background-color: var(--bg-color-2);
 }
 
 .faq-item h4{
@@ -1772,17 +1794,16 @@ footer{
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-/* .Portfolio-item:hover img{
-    transform: scale(1.3);
-    -webkit-transform: scale(1.3);
-    -moz-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    -o-transform: scale(1.3);
-} */
 .Portfolio-item-overly h4{
-    padding-top: 80px;
+    padding: 12px 0;
     color: var(--bg-color-2);
+    font-size: 27px;
     font-weight: 600;
+}
+.Portfolio-item-overly a i{
+    font-size: 30px;
+    margin-top: 15px;
+    color: var(--bg-color-3);
 }
 .Portfolio-item-overly{
     position: absolute;
@@ -1793,7 +1814,7 @@ footer{
     opacity: 0;
     width: 100%;
     border-radius: 10px;
-    background: rgb( 255, 193, 7, 80%);
+    background: rgb( 255, 193, 7, 90%);
     transition: .6s;
     -webkit-transition: .6s;
     -moz-transition: .6s;
@@ -1813,10 +1834,17 @@ footer{
     -ms-transform: scale(1);
     -o-transform: scale(1);
 }
-
 .vbox-figlio{
-    height: 500px;
-    width: 500px;
+    height: 550px !important;
+    width: auto !important;
+}
+.vbox-close{
+    font-size: 40px;
+    margin: 0 30px;
+    color: var(--main-color) !important;
+}
+.vbox-next{
+    margin: 0 20px;
 }
 
 

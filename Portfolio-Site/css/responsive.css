@@ -1,6 +1,33 @@
 @media(min-width:992px) and (max-width:1199px) { /* lg device */
     
 
+	/* home main part */
+
+	.main-content h3{
+		font-size: 33px;
+	}
+
+
+	/* service part  */
+
+	.service-item h2{
+		font-size: 18px;
+	}
+
+	/* price part */
+
+	.pricing .pricing-table-price .amount{
+		font-size: 75px;
+	}
+	.pricing .pricing-table-body ul li{
+		font-weight: 500;
+		font-size: 17px;
+		margin-bottom: 5px;
+		padding-left: 35px;
+	}
+
+	
+
 
 
   
@@ -11,6 +38,24 @@
 @media(min-width:768px) and (max-width:991px) { /* md device */
    
    
+	/* Home main part  */
+
+	.main-img img{
+		width: 300px;
+		height: 300px;
+		border-radius: 50%;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		-ms-border-radius: 50%;
+		-o-border-radius: 50%;
+	}
+
+	/* service card */
+
+	.service-item h2{
+		font-size: 18px;
+	}
+
 
 
 
@@ -21,6 +66,8 @@
 @media(min-width:576px) and (max-width:767px) { /* sm device */
   
    
+
+
 
 
 

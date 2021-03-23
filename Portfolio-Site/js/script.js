@@ -32,6 +32,14 @@ $(function () {
         arrows: false,
         dots: true,
         dotsClass: 'slider_dots',
+        responsive: [
+            {
+              breakpoint: 800,
+              settings: {
+                slidesToShow: 1,
+              }
+            },
+          ]
     });
 
 
@@ -71,10 +79,13 @@ $(function () {
     });
 
     // filterizr
-    if (filterizd) {
-     var filterizd = $('.filter-container').filterizr({});   
+    if ($.fn.filterizr) {
+      var filterizd = $('.filter-container').filterizr({});   
     }
+       
     
+    //  venubox
+    $('.venobox').venobox();
 
     // portfolio Paga End
 
