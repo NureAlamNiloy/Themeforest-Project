@@ -489,6 +489,35 @@
     .buy-now  a{
         font-size: 20px;
     }
+    .proces-item img{
+        width: 100%;
+    }
+
+    /* service page */
+    .srvice-detail-hash p{
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .srvice-detail-right h4{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .srvice-detail-right ul li{
+        margin: 10px 0;
+        color: #fefefe;
+        font-size: 11px;
+    }
+    .srvice-detail-right ul li i{
+        height: 17px;
+        font-size: 10px;
+        width: 17px;
+        line-height: 17px;
+        margin-right: 4px;
+    }
+    .proces-item h4{
+        font-size: 24px;
+    }
+    
 
 
 } /* xs device */
@@ -523,10 +552,10 @@
 
      /* Counter Part */
      .counter_items .counter_number{
-        font-size: 50px;
+        font-size: 45px;
     }
     .counter_items p{
-        font-size: 16px;
+        font-size: 14px;
     }
 
     /* faq part */
@@ -717,7 +746,19 @@
     .contact-heading h3{
         font-size: 26px;
     } 
+    .search-bar{
+        display: none;
+    }
 
+    /* service page */
+    .service-text h2{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .srvice-detail-left h2{
+        font-size: 18px;
+        line-height: 33px;
+    }
 
 
 

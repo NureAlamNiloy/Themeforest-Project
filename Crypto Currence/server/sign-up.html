@@ -31,7 +31,7 @@
     
 <!-- preloader start -->
 
-<div class="praloder_main">
+    <div class="praloder_main">
     <div class="preloader">
         <svg version="1.1"
         xmlns="http://www.w3.org/2000/svg"
@@ -98,6 +98,7 @@
 
 
 <!-- Navbar Start -->
+
 <div class="search_box">
     <form>
         <input type="text" placeholder="Type Your Search....">
@@ -113,9 +114,52 @@
     <a class="navbar-brand" href="#">
         <img src="images/logo-dark.png" class="w-100" alt="Logo">
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#customnav" aria-controls="customnav" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="d-flex d-lg-none">
+        <div class="search-bar">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="nav-cart me-3">
+            <i class="fas fa-shopping-cart"></i>
+            <span>2</span>
+            <div class="nav-cart-item">
+                <div class="nav-cart-content">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="images/cart-1.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-8">
+                            <a href="#">Bitcoin three</a>
+                            <i class="fas fa-times"></i>
+                            <h6>3 x $3.98</h6>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="nav-cart-content">
+                    <div class="row">
+                        <div class="col-4">
+                        <img src="images/cart-2.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-8">
+                        <a href="#">Product Five</a>
+                        <i class="fas fa-times"></i>
+                        <h6>1 x $54.8</h6>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="nav-cart-btn">
+                    <a href="#">View Cart</a>
+                    <a href="#">CheckOut</a>
+                </div>
+            </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#customnav" aria-controls="customnav" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars"></i>
-    </button>
+        </button>
+    </div>
+    
+    
     <div class="collapse navbar-collapse " id="customnav">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center justify-content-center">
         <li class="nav-item">
@@ -124,7 +168,7 @@
         <li class="nav-item dropdown">
             <a class="nav-link" href="#"> Pages <i class="fas fa-chevron-down"></i></a>
             <ul>
-             <li><a class="dropdown-item" href="404.html">404 Page</a></li>
+            <li><a class="dropdown-item" href="404.html">404 Page</a></li>
             <li><a class="dropdown-item" href="price.html">Price</a></li>
             <li><a class="dropdown-item" href="Login.html">Login Page</a></li>
             <li><a class="dropdown-item" href="sign-up.html">Sign Up page</a></li>
@@ -138,10 +182,10 @@
             <a class="nav-link" href="#">Blog<i class="fas fa-chevron-down"></i></a>
             <ul>
             <li><a class="dropdown-item" href="Blog-grid.html">Blog Grid</a></li>
-             <li><a class="dropdown-item" href="blog-details.html">Blog Details</a></li>
+            <li><a class="dropdown-item" href="blog-details.html">Blog Details</a></li>
             <li><a class="dropdown-item" href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
             <li><a class="dropdown-item" href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-           
+        
             
             </ul>
         </li>
@@ -152,46 +196,47 @@
             <a class="nav-link" href="contact.html">Contact</a>
         </li>
         </ul>
-        <div class="search-bar">
-            <i class="fas fa-search"></i>
-        </div>
-        <div class="nav-cart">
-            <i class="fas fa-shopping-cart"></i>
-            <span>2</span>
-            <div class="nav-cart-item">
-                 <div class="nav-cart-content">
-                     <div class="row">
-                         <div class="col-4">
-                            <img src="images/cart-1.jpg" class="w-100" alt="">
-                         </div>
-                         <div class="col-8">
-                            <a href="#">Bitcoin three</a>
-                            <i class="fas fa-times"></i>
-                            <h6>3 x $3.98</h6>
-                         </div>
-                     </div>
-                 </div>
-                 <hr>
-                 <div class="nav-cart-content">
-                    <div class="row">
-                        <div class="col-4">
-                           <img src="images/cart-2.jpg" class="w-100" alt="">
-                        </div>
-                        <div class="col-8">
-                           <a href="#">Product Five</a>
-                           <i class="fas fa-times"></i>
-                           <h6>1 x $54.8</h6>
+        <div class="d-none d-lg-flex">
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="nav-cart">
+                <i class="fas fa-shopping-cart"></i>
+                <span>2</span>
+                <div class="nav-cart-item">
+                    <div class="nav-cart-content">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="images/cart-1.jpg" class="w-100" alt="">
+                            </div>
+                            <div class="col-8">
+                                <a href="#">Bitcoin three</a>
+                                <i class="fas fa-times"></i>
+                                <h6>3 x $3.98</h6>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <hr>
-                <div class="nav-cart-btn">
-                    <a href="#">View Cart</a>
-                    <a href="#">CheckOut</a>
+                    <hr>
+                    <div class="nav-cart-content">
+                        <div class="row">
+                            <div class="col-4">
+                            <img src="images/cart-2.jpg" class="w-100" alt="">
+                            </div>
+                            <div class="col-8">
+                            <a href="#">Product Five</a>
+                            <i class="fas fa-times"></i>
+                            <h6>1 x $54.8</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="nav-cart-btn">
+                        <a href="#">View Cart</a>
+                        <a href="#">CheckOut</a>
+                    </div>
                 </div>
             </div>
         </div>
-        
     </div>
     </div>
 </nav>
@@ -308,130 +353,130 @@
 
 <!-- Subscribe part start -->
 
-<section id="subscribe">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <h3>Get New Insights Weekly</h3>
-                <p>News letter dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Enter your email Email Your Address </p>
-            </div>
-            <div class="col-lg-6 subscribe-input mt-5">
-                <div class="subscribe-input">
-                    <input type="email" placeholder="Enter Your Email">
-                    <button type="submit">Subscribe</button>
+    <section id="subscribe">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3>Get New Insights Weekly</h3>
+                    <p>News letter dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Enter your email Email Your Address </p>
+                </div>
+                <div class="col-lg-6 subscribe-input mt-5">
+                    <div class="subscribe-input">
+                        <input type="email" placeholder="Enter Your Email">
+                        <button type="submit">Subscribe</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 <!-- Subscribe part End -->
 
 
 <!-- footer part start -->
 
-<footer class="top_footer">
-<div class="container">
-    <div class="row">
-        <div class="col-lg-4 col-sm-6 col-12 mt-4 pt-md-4 footer1">
-            <a href="index.html" class="">
-                <img src="images/logo-dark.png" alt="Footer Logo">
-            </a>
-            
-            <p class="py-3">With over 10 years of experience in construction, we partner with owners and design professionals to build high-quality projects.</p>
-            
-            <ul>
-                <li><a href="https://www.facebook.com/niloy74779/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="https://twitter.com/mdniloy74779" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/md-niloy-0018821a3/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                <li><a href="https://www.instagram.com/mdniloy74779/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-             </ul>
-        </div> 
-
-        <div class="col-lg-2 col-sm-6 col-12 mt-4 footer3 ps-lg-0 ps-sm-5">
-            <h4>Useful Links</h4>
-           <ul>
-               <li><i class="fas fa-angle-double-right"> </i> <a href="about.html">About</a></li>
-               <li><i class="fas fa-angle-double-right"> </i> <a href="service.html">Services</a></li>
-               <li><i class="fas fa-angle-double-right"> </i> <a href="Blog-grid.html">Blog</a></li>
-               <li><i class="fas fa-angle-double-right"> </i> <a href="Team.html">Our Team</a></li>
-               <li><i class="fas fa-angle-double-right"> </i> <a href="contact.html">Contact Us</a></li>
-           </ul>
-        </div> 
-
-        <div class="col-lg-3 col-sm-6 col-12 mt-4 footer2">
-            <h4>Contact</h4>
-
-            <div class=" footer2_location">
-                <i class="fas fa-clock"></i>
-            <div>
-                <span>Mon - Fri: 8.00am 6.00pm</span>
-            </div>
-        </div>
-            <div class=" footer2_location">
-                    <i class="fas fa-map-marker-alt"></i>
-                <div>
-                    <span>112 W 34th St, New York</span>
-                </div>
-            </div>
-            <div class="footer2_location">
-                    <i class="fas fa-phone"></i>
-                <div>
-                    <span>(+1) 212-946-2707</span>
-                </div>
-            </div>
-            <div class="footer2_location">
-                    <i class="fa fa-envelope"></i>
-                <div>
-                    <span>info@BauerX.com</span>
-                </div>
-            </div>
-
-           
-                    
-        </div> 
-
-        <div class="col-lg-3 col-sm-6 col-12 mt-4 footer4">
-            <h4>Latest Blogs</h4>
+    <footer class="top_footer">
+        <div class="container">
             <div class="row">
-                <div class="col-4">
-                    <img src="images/blog-img4.jpg" class="w-100" alt="">
-                </div>
-                <div class="col-8">
-                    <a href="blog-details.html">Lorem ipsum dolor sit.</a>
-                    <h6><i class="fas fa-clock"></i>  January 19, 2021</h6>
-                </div>
-            </div> 
-            <div class="row mt-3">
-                <div class="col-4">
-                    <img src="images/blog-img2.jpg" class="w-100" alt="">
-                </div>
-                <div class="col-8">
-                    <a href="blog-details.html">Lorem ipsum dolor sit.</a>
-                    <h6><i class="fas fa-clock"></i>  January 19, 2021</h6>
-                </div>
-            </div> 
-        </div> 
+                <div class="col-lg-4 col-sm-6 col-12 mt-4 pt-md-4 footer1">
+                    <a href="index.html" class="">
+                        <img src="images/logo-dark.png" alt="Footer Logo">
+                    </a>
+                    
+                    <p class="py-3">With over 10 years of experience in construction, we partner with owners and design professionals to build high-quality projects.</p>
+                    
+                    <ul>
+                        <li><a href="https://www.facebook.com/niloy74779/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://twitter.com/mdniloy74779" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/md-niloy-0018821a3/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.instagram.com/mdniloy74779/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div> 
 
-    </div>
-</div>
-</footer>
+                <div class="col-lg-2 col-sm-6 col-12 mt-4 footer3 ps-lg-0 ps-sm-5">
+                    <h4>Useful Links</h4>
+                <ul>
+                    <li><i class="fas fa-angle-double-right"> </i> <a href="about.html">About</a></li>
+                    <li><i class="fas fa-angle-double-right"> </i> <a href="service.html">Services</a></li>
+                    <li><i class="fas fa-angle-double-right"> </i> <a href="Blog-grid.html">Blog</a></li>
+                    <li><i class="fas fa-angle-double-right"> </i> <a href="Team.html">Our Team</a></li>
+                    <li><i class="fas fa-angle-double-right"> </i> <a href="contact.html">Contact Us</a></li>
+                </ul>
+                </div> 
 
-<footer class="last_footer d-md-block d-none">
-<div class="container">
-    <div class="row justify-content-between">
-        <div class="col-8">
-            <p>© Bauer Construction. All rights reserved.</p>
+                <div class="col-lg-3 col-sm-6 col-12 mt-4 footer2">
+                    <h4>Contact</h4>
+
+                    <div class=" footer2_location">
+                        <i class="fas fa-clock"></i>
+                    <div>
+                        <span>Mon - Fri: 8.00am 6.00pm</span>
+                    </div>
+                </div>
+                    <div class=" footer2_location">
+                            <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <span>112 W 34th St, New York</span>
+                        </div>
+                    </div>
+                    <div class="footer2_location">
+                            <i class="fas fa-phone"></i>
+                        <div>
+                            <span>(+1) 212-946-2707</span>
+                        </div>
+                    </div>
+                    <div class="footer2_location">
+                            <i class="fa fa-envelope"></i>
+                        <div>
+                            <span>info@BauerX.com</span>
+                        </div>
+                    </div>
+
+                
+                            
+                </div> 
+
+                <div class="col-lg-3 col-sm-6 col-12 mt-4 footer4">
+                    <h4>Latest Blogs</h4>
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="images/blog-img4.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-8">
+                            <a href="blog-details.html">Lorem ipsum dolor sit.</a>
+                            <h6><i class="fas fa-clock"></i>  January 19, 2021</h6>
+                        </div>
+                    </div> 
+                    <div class="row mt-3">
+                        <div class="col-4">
+                            <img src="images/blog-img2.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-8">
+                            <a href="blog-details.html">Lorem ipsum dolor sit.</a>
+                            <h6><i class="fas fa-clock"></i>  January 19, 2021</h6>
+                        </div>
+                    </div> 
+                </div> 
+
+            </div>
         </div>
-        <div class="col-4 text-end">
-            <ul>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Terms of Use </a></li>
-            </ul>
-        </div> 
-    </div>
-</div>
-</footer>
+    </footer>
+
+    <footer class="last_footer d-md-block d-none">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-8">
+                    <p>© Bauer Construction. All rights reserved.</p>
+                </div>
+                <div class="col-4 text-end">
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use </a></li>
+                    </ul>
+                </div> 
+            </div>
+        </div>
+    </footer>
 
 <!-- footer part End -->
 
