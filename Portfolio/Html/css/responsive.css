@@ -109,6 +109,7 @@
 	.main-img img{
 		width: 300px;
 		height: 300px;
+		Object-fit:cover;
 		border-radius: 50%;
 		-webkit-border-radius: 50%;
 		-moz-border-radius: 50%;
@@ -132,7 +133,7 @@
 	/* footer part */
 
 	.footer-nav ul li{
-		margin: 15px 10px;
+		margin: 12px 10px;
 	}
 
 	/* Service Details Paqge */
