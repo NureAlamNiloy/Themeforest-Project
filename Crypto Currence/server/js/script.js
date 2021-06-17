@@ -228,3 +228,10 @@ $(function ($) {
 
 
 });
+
+
+
+
+// if ($('selector').length > 0 ) {
+// Your Code
+// };
