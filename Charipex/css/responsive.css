@@ -1,0 +1,1564 @@
+@media(min-width:992px) and (max-width:1199px) { /* lg device */
+    
+
+    .animate-btn a{
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+
+    /*========================= Home Page 01 ====================*/
+
+    /* header start*/
+
+    #customnav .dropdown  a i{
+        display: none;
+    }
+    #customnav > ul > li{
+        margin: 0 6px;
+    }
+
+
+    /* Banner part */
+
+    .banner-icon-left{
+        left: 100px;  
+    }
+    .banner-icon-right{
+        right: 100px;
+    }
+
+    /* Child Part*/
+    .child-card h3{
+        font-size: 20px;
+    }
+    .clid-img h2{
+        padding: 25px 40px 28px 120px;
+        font-size: 25px;
+        right: -10px;
+        left: 20px;
+    }
+    .child-content h2{
+        font-size: 25px;
+    }
+    .child-content ul li{
+        padding: 4px 5px;
+        font-size: 11px;
+    }
+    .child-content ul li h6{
+        font-size: 11px;
+    }
+
+
+    /* Counter Part */
+
+    #counter .d-grid{
+        grid-column-gap: 10px;
+    }
+    .counter-item {
+        padding: 20px;
+    }
+
+
+    /* Campaign Part */
+
+    .campaign-item ul{
+        margin: 0 10px;
+    }
+    .campaign-item ul li{
+        font-size: 15px;
+        line-height: 40px;
+    }
+    .campaign-item ul li h6{
+        font-size: 15px;
+    }
+
+
+    /* Action Part */
+
+    #action h2{
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 700;
+    }
+
+
+    /* Volunteer  Part */
+
+    .volunteer-content {
+        padding: 10px;
+    }
+    .volunteer-content h5{
+        font-size: 17px;
+        font-weight: 700;
+    }
+    #volunteer .section-heading h2 {
+        font-size: 30px;
+    }
+
+    /* Doner's Part */
+
+    .doner-item {
+        padding: 70px 40px;
+       
+    }
+    .doner-item p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    /* News Part */
+
+    .news-item ul li{
+        padding: 0 20px;
+    }
+    .news-item p{
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 38px;
+    }
+    .news-item-text span{
+        padding: 5px 45px 5px 10px;
+    }
+    .news-item-text {
+        padding: 25px;
+    }
+    .news-item-text h2{
+        font-size: 18px;
+        line-height: 30px;
+        margin: 30px 0;
+    }
+
+    /* footer Part */
+
+    .footer-one-link {
+        padding: 45px 25px;
+    }
+    #footer-one h2{
+        font-size: 20px;
+    }
+    .footer-one-link a{
+        font-size: 15px;
+    }
+    .footer-one-link a i{
+        margin-right: 10px;
+    }
+    .footer-one-link .d-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-row-gap: 20px;
+        grid-column-gap: 10px;
+    }
+
+
+    /*========================= Home Page 01 ====================*/
+
+
+
+    /*========================= Home Page 02 ====================*/
+    
+
+    /* header part */
+    .header-two #customnav > ul > li > a{
+        font-size: 14px;
+        padding:  0 3px;
+    }
+    .slider-items{
+        height: 100%;
+    }
+
+    /* Banne Two Card */
+    .banner-card-item{
+        padding: 40px 20px;
+    }
+    .banner-card h4{
+        font-size: 20px;
+    }
+
+    /* video part */
+    #video-two .video-text h1{
+        font-size: 45px;
+    }
+    
+
+    /* volunteer part */
+    .volunter-item h4{
+        font-size: 20px;
+    }
+
+    /* action-two part */
+    #action-two h2{
+        font-size: 35px;
+    }
+
+    /* doner part */
+    #doner-two{
+        padding: 115px 0;
+        margin-bottom: 0;
+    }
+    .donertwo-position{
+        margin-bottom: 0;
+    }
+    .donerTwo-info p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .donerTwo-info span{
+        font-size: 15px;
+    }
+    .donerTwo-info h4{
+        font-size: 22px;
+        line-height: 48px;
+    }
+    .donertwo-icon-left,
+    .donertwo-icon-right{
+        padding: 4px 30px;
+        font-size: 50px;
+    }
+    
+    
+    /*========================= Home Page 02 ====================*/
+    
+    
+    /*========================= Home Page 03 Start ====================*/
+    
+    /* header part */
+     #header-three .header-phone{
+        display: none;
+    }
+
+    /* about part */
+    #about-three .about-strock{
+        top: 10px;
+        font-size: 200px;
+    }
+    .about-three-content h2{
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 57px; 
+        color: #032115;
+        padding: 15px 0 30px;
+    }
+
+    /* campaign-three part */
+    .campaign3-item .text-center{
+        padding: 35px 10px;
+    }
+    .campaign3-item h4{
+        font-size: 20px;
+    }
+
+    /* video feature part */
+    .video-feature-content h4{
+        font-size: 18px;
+    }
+
+    /* Doner Part */
+    .donerThree-item h5{
+        font-size: 17px;
+        line-height: 10px;
+    }
+    .donerThree-content h6{
+        line-height: 10px;
+    }
+    
+    
+/*========================= Home Page 03 End ====================*/
+
+
+
+/*========================= About Page Start ====================*/
+
+.aboutUs-content h2{
+    font-size: 35px;
+    line-height: 48px;
+    padding: 13px 0;
+}
+.aboutUs-content h4{
+    font-size: 25px;
+    line-height: 43px;
+}
+.aboutUs-content h5{
+    font-size: 18px;
+}
+/*========================= About Page End ====================*/
+
+
+/*========================= Blog Page Start ====================*/
+
+.blog-author h5{
+    font-size: 17px;
+}
+.blog-post h2{
+    font-size: 20px;
+}
+.blog-details .blog-child-text h3{
+    font-size: 20px;
+    line-height: 30px;
+}
+.blog-details .blog-child-text a{
+    font-size: 11px;
+    margin-top: 7px;
+}
+
+/*========================= Blog Page End ====================*/
+
+
+/*========================= Causes Page Start ====================*/
+
+.cause-donnar{
+    padding: 6px;
+}
+.cause-donnar h5{
+    font-size: 15px;
+    line-height: 30px;
+}
+.cause-donnar span{
+    font-size: 13px;
+}
+
+/*========================= Causes Page End ====================*/
+
+
+  
+    
+}/* lg device */
+
+
+
+@media(min-width:768px) and (max-width:991px) { /* md device */
+
+/*========================= Home Page 01 ====================*/
+
+
+/* Header Part */
+#customnav > ul > li:hover{
+   background: none;
+}
+#customnav > ul > li:hover::after{
+    width: 0%;
+}
+.menu{
+    margin-bottom: 0;
+    background-color: #1e2736;
+}
+.menu::after{
+    display: none;
+}
+.customnav .navbar-brand {
+    display: block !important;
+    z-index: 1;
+    margin-bottom: -26px;
+}
+.customnav .navbar-brand img{
+    width: 150px !important;
+}
+#customnav > ul > li{
+    padding: 15px 0;
+}
+#customnav ul li ul{
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.header-btn a{
+    display: none;
+}
+
+/* Banner Part */
+.banner-content h2{
+    font-size: 58px;
+    font-weight: 800;
+}
+.slider_btn a{
+    margin: 50px 30px 0 0;
+}
+.banner-icon-left{
+    left: 20px;
+    
+}
+.banner-icon-right{
+    right: 20px;
+}
+
+/* Child Part */
+
+.clid-img h2{
+    right: 0px;
+}
+
+ /* Counter Part */
+
+ #counter .d-grid{
+     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+.counter-item {
+    padding: 20px;
+}
+
+/* volunteer From */
+.volunteer-form{
+    margin-top: 200px;
+}
+
+/*========================= Home Page 01 ====================*/
+
+
+
+/*========================= Home Page 02 ====================*/
+
+/* header two part */
+
+.header-two .navbar-brand {
+    margin-bottom: 0;
+    position: relative;
+}
+.header-two #customnav > ul > li::after{
+    display: none;
+ }
+
+ .header-two #customnav > ul > li > a:hover{
+     background: none;
+ }
+
+ /* banner part */
+ #banner-two .banner-content h2{
+    font-size: 80px;
+}
+.banner2-icon-left,
+.banner2-icon-right{
+    right: 100px;
+} 
+.slider-items{
+    height: 100%;
+}
+
+/* banner card */
+.banner-card-item{
+    padding: 40px 20px;
+}
+
+/* video part */
+#video-two .video-icon{
+    height: 400px !important;
+    margin-top: 20px;
+}
+
+ /* doner part */
+ #doner-two{
+    padding: 115px 0;
+    margin-bottom: 0;
+}
+.donertwo-position{
+    margin-bottom: 0;
+}
+
+
+/*========================= Home Page 02 ====================*/
+   
+
+/*========================= Home Page 03 Start ====================*/
+
+#header-three{
+    display: none;
+}
+
+/* banner part */
+#banner-three .banner3-content{
+    padding: 100px 0;
+} 
+.banner-dots{
+    right: 100px;
+}
+
+/* about part */
+ #about-three .about-strock{
+    top: 20px;
+    font-size: 150px;
+}
+.about-three-img {
+    position: relative;
+    width: 90%;   
+}
+
+/* campaign part */
+
+.campaign3-item .text-center{
+    padding: 35px 10px;
+}
+
+/* volunteer part */
+.volunteer3-item{
+    padding: 185px 0 50px;
+    width: 90%;
+}
+
+.volunteer3-item .volunteer-img img{
+    position: absolute;
+    top: -320px;
+    left: 0;
+    border-radius: 50%;
+    width: 100%;
+    display: inline-block;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 20%);
+    border: 5px solid #eef7f3;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+    
+/*========================= Home Page 03 End ====================*/
+
+
+
+
+}/* md device */
+
+
+
+@media(min-width:576px) and (max-width:767px) { /* sm device */
+    .causes-video .video-hight {
+        height: 1000px;
+        width: 100%;
+    }
+  
+/* ========================= Home Page 01 ==================== */
+
+   
+/* Header Part */
+#customnav > ul > li:hover{
+    background: none;
+ }
+ #customnav > ul > li:hover::after{
+     width: 0%;
+ }
+ .menu{
+     margin-bottom: 0;
+     background-color: #1e2736;
+ }
+ .menu::after{
+     display: none;
+ }
+ .customnav .navbar-brand {
+     display: block !important;
+     z-index: 1;
+     margin-bottom: -26px;
+ }
+ .customnav .navbar-brand img{
+     width: 150px !important;
+ }
+ #customnav > ul > li{
+     padding: 15px 0;
+ }
+ #customnav ul li ul{
+     top: 70%;
+     left: 50%;
+     transform: translateX(-50%);
+     -webkit-transform: translateX(-50%);
+     -moz-transform: translateX(-50%);
+     -ms-transform: translateX(-50%);
+     -o-transform: translateX(-50%);
+ }
+ .header-btn a{
+     display: none;
+ }
+ 
+/* Child Part */
+
+.clid-img h2{
+    right: 0px;
+}
+
+
+ /* Counter Part */
+
+ #counter .d-grid{
+     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.counter-item {
+    padding: 20px;
+}
+
+/* volunteer From */
+.volunteer-form{
+    margin-top: 200px;
+}
+
+/*========================= Home Page 01 ====================*/
+
+
+/*========================= Home Page 02 ====================*/
+
+/* header two part */
+
+.header-two .navbar-brand {
+    margin-bottom: 0;
+    position: relative;
+}
+.header-two #customnav > ul > li::after{
+    display: none;
+ }
+
+ .header-two #customnav > ul > li > a:hover{
+     background: none;
+ }
+
+ /* top header */
+ #top-header-two p{
+    line-height: 25px;
+    padding: 10px;
+}
+
+/* banner part */
+#banner-two .banner-content h4{
+    font-size: 30px;
+    line-height: 75px;
+}
+#banner-two .banner-content h2{
+    font-size: 60px;
+    line-height: 75px;
+}
+#banner-two .banner-content .slider_btn a{
+    margin: 0 30px 0 0;
+}
+.banner2-icon-left,
+.banner2-icon-right{
+    display: none !important;
+} 
+.slider-items{
+    height: 100%;
+}
+
+
+/* video part */
+#video-two .video-text h1{
+    font-size: 45px;
+}
+#video-two .video-icon{
+    height: 400px !important;
+    margin-top: 20px;
+}
+
+ /* doner part */
+ #doner-two{
+    padding: 115px 0;
+    margin-bottom: 0;
+}
+.donertwo-position{
+    margin-bottom: 0;
+}
+.donerTwo-info p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.donerTwo-info span{
+    font-size: 15px;
+}
+.donerTwo-info h4{
+    font-size: 22px;
+    line-height: 48px;
+}
+.donertwo-icon-left,
+.donertwo-icon-right{
+    padding: 4px 30px;
+    font-size: 50px;
+}
+
+
+/*========================= Home Page 02 ====================*/
+
+
+/*========================= Home Page 03 Start ====================*/
+    
+#header-three{
+    display: none;
+}
+
+/* banner part */
+#banner-three .banner3-content{
+    padding: 100px 0;
+} 
+.banner-dots{
+    right: 10px;
+}
+#banner-three .banner3-content h2{
+    font-size: 80px;
+} 
+
+/* about part */
+ #about-three .about-strock{
+    top: 20px;
+    font-size: 100px;
+}
+.about-three-content h2{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 47px; 
+    color: #032115;
+    padding: 25px 0 40px;
+}
+.about-three-content p{
+    font-size: 16px;
+    line-height: 32px;
+    color: #4a5450;
+}
+.about-three-text{
+    margin-top: 35px;
+    padding: 25px 20px;
+}
+.about-three-text h5{
+    font-size: 17px;
+    line-height: 30px;
+}
+
+/* campaign part */
+
+.campaign3-item .text-center{
+    padding: 35px 10px;
+}
+.campaign3-item ul li{
+    margin: 0 5px;
+}
+.campaign3-item h4{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 48px;
+    padding: 16px 0 8px;
+    color: var(--text-color1);
+}
+
+/* video feature part */
+#video-feature .position-relative{
+    height: 400px !important;
+}
+
+/* volunteer part */
+.volunteer3-item{
+    padding: 130px 0 50px;
+}
+
+.volunteer3-item .volunteer-img img{
+    top: -250px;
+}
+    
+/*========================= Home Page 03 End ====================*/
+
+
+/*========================= About Page Start ====================*/
+
+.aboutUs-content h2{
+    font-size: 35px;
+    line-height: 48px;
+    padding: 13px 0;
+}
+.aboutUs-content h4{
+    font-size: 25px;
+    line-height: 43px;
+}
+.aboutUs-content h5{
+    font-size: 18px;
+}
+#footer-three h2{
+    font-size: 30px;
+    line-height: 40px;
+}
+#breadcrumb h2{
+    font-size: 60px;
+    padding: 130px 0;
+}
+/*========================= About Page End ====================*/
+
+
+/*========================= Blog Page Start ====================*/
+
+.blog-author h5{
+    font-size: 15px;
+}
+.blog-post h2{
+    font-size: 17px;
+}
+.cause-sidebar h5{
+    line-height: 49px;
+}
+.blog-details .blog-child-text h3{
+    font-size: 20px;
+    line-height: 30px;
+}
+.blog-details .blog-child-text a{
+    font-size: 11px;
+    margin-top: 7px;
+}
+.blog-details .blog-child-text{
+    padding: 10px 15px;
+}
+.blog-details h2{
+    font-size: 22px;
+    line-height: 38px;
+}
+.blog-details .text-bg{
+    padding: 20px;
+}
+.blog-details .text-bg h6{
+    font-size: 18px;
+    line-height: 30px;;
+}
+.blog-details .comment h2{
+    font-size: 21px;
+}
+.blog-details .comment h4{
+    font-size: 17px;
+}
+.blog-details .comment p{
+    font-size: 11px;
+    line-height: 20px;
+}
+.blog-details .comment span{
+    font-size: 13px
+}
+.blog-details .comment a{
+    margin-top: 14px;
+    font-size: 14px;
+}
+
+/*========================= Blog Page End ====================*/
+
+
+
+
+}/* sm device */
+
+
+
+
+@media(max-width:575px) { /* xs device */
+   
+
+/* ========================= Home Page 01 ==================== */
+
+
+.section-heading h2 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 16px 0;
+}
+
+/* top Header */
+
+.header-contact ul li{
+    display: inline-block;
+    color: #51565e;
+    font-size: 14px;
+    border-right: none;
+    margin-left: 25px;
+    margin-top: 10px;
+    padding-right: 0;
+}
+
+  /* Header Part */
+#customnav > ul > li:hover{
+    background: none;
+ }
+ #customnav > ul > li:hover::after{
+     width: 0%;
+ }
+ .menu{
+     margin-bottom: 0;
+     background-color: #1e2736;
+ }
+ .menu::after{
+     display: none;
+ }
+ .customnav .navbar-brand {
+     display: block !important;
+     z-index: 1;
+     margin-bottom: -26px;
+ }
+ .customnav .navbar-brand img{
+     width: 150px !important;
+ }
+ #customnav > ul > li{
+     padding: 15px 0;
+ }
+ #customnav ul li ul{
+     top: 70%;
+     left: 50%;
+     transform: translateX(-50%);
+     -webkit-transform: translateX(-50%);
+     -moz-transform: translateX(-50%);
+     -ms-transform: translateX(-50%);
+     -o-transform: translateX(-50%);
+ }
+ .header-btn a{
+     display: none;
+ }
+
+/* Banner part */
+
+.banner-content h2{
+    font-size: 48px;
+    padding: 0 6px;
+    font-weight: 800;
+}
+.slider_btn a{
+    padding: 15px 20px;
+    margin: 0 15px;
+}
+.banner-icon-left{
+    left: 10px;
+    
+}
+.banner-icon-right{
+    right: 10px;
+}
+   
+/* Child Part */
+
+#child .nav-tabs button{
+    margin-top: 50px;
+}
+.clid-img h2{
+    padding: 25px 10px 25px 100px;
+    font-size: 20px;
+    line-height: 30px;
+    bottom: 10px;
+    right: 0px;
+}
+.child-content .child-btn a {
+    padding: 10px;
+}
+.child-card-2::after{
+    display: none;
+}
+.child-content ul{
+    padding: 7px 0;
+}
+.child-content ul li{
+    padding: 5px;
+    font-size: 11px;
+    font-weight: 700;
+}
+.child-content ul li h6{
+    font-size: 11px;
+}
+.child-card h3{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+ /* Counter Part */
+
+ #counter .d-grid{
+     grid-template-columns: 1fr  1fr;
+    grid-gap: 30px;
+}
+.counter-item {
+    padding: 20px;
+}
+
+/* campaign Part */
+
+.campaign-page-border{
+    width: 100%;
+}
+
+/* volunteer From */
+.volunteer-form{
+    margin-top: 200px;
+}
+/* video part */
+.video-content-text {
+    padding: 10px;
+    left: 12px;
+    right: 12px;
+}
+.video-content-text h2{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.video-icon {
+    display: none;
+}
+.video-content img{
+    height: 300px;
+}
+
+/* Doner Part */
+.doner-item {
+    padding: 20px;
+   
+}
+
+/*========================= Home Page 01 ====================*/
+
+
+/*========================= Home Page 02 ====================*/
+
+/* header two part */
+
+.header-two .navbar-brand {
+    margin-bottom: 0;
+    position: relative;
+}
+.header-two #customnav > ul > li::after{
+    display: none;
+ }
+
+ .header-two #customnav > ul > li > a:hover{
+     background: none;
+ }
+
+  /* top header */
+  #top-header-two p{
+    line-height: 25px;
+    padding: 10px;
+}
+
+/* banner part */
+#banner-two .banner-content h4{
+    font-size: 30px;
+    line-height: 75px;
+}
+#banner-two .banner-content h2{
+    font-size: 60px;
+    line-height: 75px;
+}
+#banner-two .banner-content .slider_btn a{
+    margin: 0 30px 0 0;
+}
+.banner2-icon-left,
+.banner2-icon-right{
+    display: none !important;
+} 
+#banner-two .banner-content .d-flex{
+    display: inline-block !important;
+}
+#banner-two .banner-content ul{
+    text-align: start;
+    margin-top: 30px;
+}
+.slider-items{
+    height: 100%;
+}
+
+/* about part */
+#about h4{
+    font-size: 24px;
+    line-height: 45px;
+}
+#about h2{
+    font-size: 35px;
+    line-height: 50px;
+}
+
+/* video part */
+#video-two .video-text h1{
+    font-size: 35px;
+    line-height: 40px;
+}
+#video-two .video-text{
+    padding: 50px 20px 65px;
+}
+#video-two .video-text a{
+    font-size: 20px;
+}
+#video-two .video-icon{
+    height: 400px !important;
+    margin-top: 20px;
+}
+
+/* subscribe part  */
+#subscribe-two h2{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+}
+#subscribe-two .subscribe-input button {
+    padding: 15px 17px;
+    font-size: 12px;
+}
+
+/* action part */
+#action-two h2{
+    font-size: 35px;
+    line-height: 45px;
+}
+
+ /* doner part */
+ #doner-two{
+    padding: 115px 0;
+    margin-bottom: 0;
+}
+.donertwo-position{
+    margin-bottom: 0;
+}
+.donerTwo-info p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.donerTwo-info span{
+    font-size: 15px;
+}
+.donerTwo-info h4{
+    font-size: 20px;
+    line-height: 40px;
+}
+.donertwo-icon-left,
+.donertwo-icon-right{
+    padding: 4px 0px;
+    font-size: 40px;
+}
+
+/*========================= Home Page 02 ====================*/
+
+
+/*========================= Home Page 03 Start ====================*/
+    
+#header-three{
+    display: none;
+}
+
+/* banner part */
+#banner-three .banner3-content{
+    padding: 70px 0;
+} 
+.banner-dots{
+    display: none !important;
+}
+#banner-three .banner3-content h2{
+    font-size: 70px;
+} 
+
+/* about part */
+ #about-three .about-strock{
+    top: 20px;
+    font-size: 60px;
+}
+.about-three-content h2{
+    font-size: 25px;
+    line-height: 37px;
+    padding: 25px 0 40px;
+}
+.about-three-content p{
+    font-size: 13px;
+    line-height: 25px;
+}
+.about-three-text{
+    margin-top: 25px;
+    padding: 25px 20px;
+}
+.about-three-text h5{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/* campaign part */
+
+.campaign3-item .text-center{
+    padding: 35px 10px;
+}
+.campaign3-item ul li{
+    margin: 0 5px;
+}
+.campaign3-item h4{
+    font-size: 18px;
+}
+
+/* video feature part */
+#video-feature .position-relative{
+    height: 300px !important;
+}
+
+/* volunteer part */
+.volunteer3-item{
+    padding: 230px 0 50px;
+}
+
+.volunteer3-item .volunteer-img img{
+    top: -390px;
+} 
+#volunteer-three .col-sm-6{
+    width: 75%;
+} 
+
+/* counter part */
+.counter-three .counter-item i:nth-child(2){
+    display: none;
+}
+
+/* footer part */
+
+#footer-three h2{
+    font-size: 25px;
+    line-height: 35px;
+}
+
+    
+/*========================= Home Page 03 End ====================*/
+    
+/*========================= About Page Start ====================*/
+
+.aboutUs-content h2{
+    font-size: 30px;
+    line-height: 48px;
+    padding: 13px 0;
+}
+.aboutUs-content h4{
+    font-size: 20px;
+    line-height: 43px;
+}
+.aboutUs-content h5{
+    font-size: 18px;
+}
+#breadcrumb h2{
+    font-size: 45px;
+    padding: 100px 0;
+}
+/*========================= About Page End ====================*/
+
+/*========================= Blog Page Start ====================*/
+
+.blog-author h5{
+    font-size: 15px;
+}
+.blog-post h2{
+    font-size: 20px;
+    line-height: 30px;
+}
+.blog-details .blog-child-text h3{
+    font-size: 20px;
+    line-height: 30px;
+}
+.blog-details .blog-child-text a{
+    font-size: 11px;
+    margin-top: 7px;
+}
+.blog-details .blog-child-text{
+    padding: 10px 15px;
+}
+.blog-details h2{
+    font-size: 22px;
+    line-height: 38px;
+}
+.blog-details .text-bg{
+    padding: 20px;
+}
+.blog-details .text-bg h6{
+    font-size: 18px;
+    line-height: 30px;;
+}
+.blog-details .comment h2{
+    font-size: 21px;
+}
+.blog-details .comment h4{
+    font-size: 17px;
+}
+.blog-details .comment p{
+    font-size: 11px;
+    line-height: 20px;
+}
+.blog-details .comment span{
+    font-size: 13px
+}
+.blog-details .comment a{
+    margin-top: 14px;
+    font-size: 14px;
+}
+.cause-form{
+    padding: 30px 15px;
+}
+.cause-form h2{
+    font-size: 20px;
+}
+.cause-form h2::after,
+.cause-form h2::before{
+    display: none;
+}
+#blog-details .blog-post{
+    padding: 30px 10px;
+}
+
+/*========================= Blog Page End ====================*/
+
+/* campaign art */
+.campaign-range{
+    width: 400px;
+}
+
+
+
+
+} /* xs device */
+
+
+
+
+@media(max-width:375px){
+
+    .section-heading h2 {
+        font-size: 20px;
+    }
+    #top-header-two p{
+        font-size: 12px;
+    }
+    #breadcrumb h2{
+        font-size: 40px;
+        padding: 90px 0;
+    }
+
+/* ========================= Home Page 01 ==================== */
+
+/* Header Part */
+#customnav > ul > li:hover{
+    background: none;
+ }
+#customnav > ul > li:hover::after{
+    width: 0%;
+}
+.menu{
+    margin-bottom: 0;
+    background-color: #1e2736;
+}
+.menu::after{
+    display: none;
+}
+.customnav .navbar-brand {
+    display: block !important;
+    z-index: 1;
+    margin-bottom: -26px;
+}
+.customnav .navbar-brand img{
+    width: 150px !important;
+}
+#customnav > ul > li{
+    padding: 15px 0;
+}
+#customnav ul li ul{
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.header-btn a{
+    display: none;
+}
+
+/* Banner Part */
+.banner-content h2{
+    font-size: 38px;
+    padding: 0 6px;
+    font-weight: 800;
+}
+.slider_btn a{
+    padding: 15px 20px;
+    margin: 0 15px;
+}
+.slider_btn a:last-child{
+
+    margin-top: 20px;
+}
+.banner-icon-left{
+    left: 5px;
+    
+}
+.banner-icon-right{
+    right: 5px;
+}
+     
+/* Child Part */
+ 
+.clid-img h2{
+    right: 0px;
+}
+.clid-img h2{
+    padding: 25px 10px 25px 60px;
+    font-size: 18px;
+    line-height: 30px;
+    bottom: 5px;
+    right: 0px;
+}
+.child-content h2{
+    font-size: 22px;
+    line-height: 28px;
+}
+.child-content ul{
+    margin: 50px 7px 30px 0;
+    border: 1px solid #d9e2de;
+    background-color: var(--white);
+    padding: 7px 0;
+}
+.child-content ul li{
+    padding: 5px;
+    font-size: 10px;
+    font-weight: 700;
+}
+.child-content ul li h6{
+    font-size: 10px;
+}
+.child-btn a{
+    margin-top: 20px;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 12px;
+}
+.child-card h3{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+ /* Counter Part */
+
+ #counter .d-grid{
+     text-align: center;
+     grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+.counter-item {
+    padding: 20px;
+}
+
+/* Campaign Part */
+#campaign #myTab li button,
+#campaign-two #myTab li button{
+    border: none;
+    background: none;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 0 25px;
+}
+
+
+/* Volunteer  Part */
+
+.volunteer-content {
+    padding: 10px;
+}
+.volunteer-content h5{
+    font-size: 17px;
+    font-weight: 700;
+}
+#volunteer .section-heading h2 {
+    font-size: 30px;
+}
+
+/* volunteer From */
+
+.volunteer-form{
+    margin-top: 200px;
+}
+.volunteer-form {
+    padding: 40px 10px;
+}
+
+/*========================= Home Page 01 ====================*/
+
+
+/*========================= Home Page 02 ====================*/
+
+
+/* header two part */
+
+.header-two .navbar-brand {
+    margin-bottom: 0;
+    position: relative;
+}
+.header-two #customnav > ul > li::after{
+    display: none;
+ }
+
+ .header-two #customnav > ul > li > a:hover{
+     background: none;
+} 
+.search-bar,
+.nav-cart{
+    display: none;
+}
+
+/* doner-two part */
+.donerTwo-info p{
+    font-size: 12px;
+    line-height: 20px;
+}
+.donerTwo-info{
+    padding: 20px 10px;
+}
+.donerTwo-info span{
+    font-size: 14px;
+}
+.donerTwo-info i{
+    font-size: 13px;
+}
+.donerTwo-info h4{
+    font-size: 18px;
+    line-height: 40px;
+}
+.donertwo-icon-left,
+.donertwo-icon-right{
+    padding: 0px 0px;
+    font-size: 35px;
+}
+
+/*========================= Home Page 02 ====================*/
+
+
+/*========================= Home Page 03 Start ====================*/
+    
+/* banner part */
+#banner-three .banner3-content h2{
+    font-size: 50px;
+    line-height: 60px;
+} 
+.about-three-content h2{
+    font-size: 20px;
+    line-height: 30px;
+}
+/* volunteer part */
+.volunteer3-item{
+    padding: 170px 0 50px;
+}
+#volunteer-three .col-sm-6{
+    width: 90%;
+} 
+
+.volunteer3-item .volunteer-img img{
+    top: -310px;
+} 
+.video-text a{
+    font-size: 17px !important;
+}
+    
+/*========================= Home Page 03 End ====================*/
+
+
+/* campaign art */
+.campaign-range{
+    width: 300px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

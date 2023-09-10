@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bion Blog Right Sidebar</title>
+
+   <!-- Link Fav icon -->
+   <link rel="shortcut icon" href="images/logo-dark.png" type="image/x-icon">
+   <!-- Link google font -->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+   <!-- Link fontawesome -->
+   <link rel="stylesheet" href="css/fontawesome.min.css">
+   <!-- link slick slider -->
+   <link rel="stylesheet" href="css/slick.css">
+   <!-- link Swiper slider -->
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <!-- link bootstrap -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <!-- Link Fancy Box -->
+   <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <!-- link style css -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- Link responsive css -->
+   <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+<body>
+    
+<!-- preloader start -->
+
+<div class="praloder_main">
+    <div class="preloader">
+        <svg version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="25 25 50 50">
+        <circle cx="50" cy="50" r="20" fill="none" stroke-width="5" stroke="#fd961a" stroke-linecap="round" stroke-dashoffset="0" stroke-dasharray="100, 200">
+            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 50 50" to="360 50 50" dur="2.5s" repeatCount="indefinite"/>
+            <animate attributeName="stroke-dashoffset" values="0;-30;-124" dur="1.25s" repeatCount="indefinite"/>
+            <animate attributeName="stroke-dasharray" values="0,200;110,200;110,200" dur="1.25s" repeatCount="indefinite"/>
+        </circle>
+    </svg>
+    </div>
+    
+    </div>
+
+<!-- preloader end -->
+
+<!-- Top Header Part Start -->
+
+    <header id="top-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 text-center text-lg-start">
+                    <div class="header-support">
+                        <ul>
+                            <li><i class="fas fa-envelope"></i><a href="mailto:mail@cryptocurrency.com">mail@cryptocurrency.com</a></li>
+                            <li><i class="fas fa-phone-alt"></i><a href="tel:+(654)811-3919">(654) 811-3919</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-7 py-2 py-lg-0 align-items-center text-center text-lg-end">
+                    <div class="top-header-right">
+                        <div class="top-header-account">
+                            <ul>
+                                <li class="account"><i class="far fa-user pe-2"></i> <a href="#">My Account</a>
+                                   <div class="account-content text-center">
+                                       <img src="images/team-11.jpg" alt="">
+                                       <ul>
+                                           <li>Name: Niloy</li>
+                                           <li>User Id: 3464362</li>
+                                       </ul>
+                                       <a href="">LogOut</a>
+                                   </div> 
+                                </li>
+                                <li><a href="Login.html">Login</a></li>
+                                <li><a href="sign-up.html">Sign Up</a></li>
+                            </ul>
+                        </div>
+                        <div class="header-icon align-items-center ">
+                            <ul>
+                                <li><a href="https://www.facebook.com/niloy74779/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://twitter.com/mdniloy74779" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/md-niloy-0018821a3/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="https://www.instagram.com/mdniloy74779/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href=""><i class="fab fa-google-plus"></i></a></li>
+                            </ul> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!-- Top Header Part End -->
+
+
+<!-- Navbar Start -->
+
+<div class="search_box">
+    <form>
+        <input type="text" placeholder="Type Your Search....">
+    </form> 
+    <div class="close">
+        <i class="fas fa-times"></i>
+    </div>
+</div> <!-- search box -->
+
+<div class="customnav w-100">
+    <nav class="navbar navbar-expand-lg menu">
+    <div class="container">
+    <a class="navbar-brand" href="#">
+        <img src="images/logo-dark.png" class="w-100" alt="Logo">
+    </a>
+    <div class="d-flex d-lg-none">
+        <div class="search-bar">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="nav-cart me-3">
+            <i class="fas fa-shopping-cart"></i>
+            <span>2</span>
+            <div class="nav-cart-item">
+                <div class="nav-cart-content">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="images/cart-1.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-8">
+                            <a href="#">Bitcoin three</a>
+                            <i class="fas fa-times"></i>
+                            <h6>3 x $3.98</h6>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="nav-cart-content">
+                    <div class="row">
+                        <div class="col-4">
+                        <img src="images/cart-2.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-8">
+                        <a href="#">Product Five</a>
+                        <i class="fas fa-times"></i>
+                        <h6>1 x $54.8</h6>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="nav-cart-btn">
+                    <a href="#">View Cart</a>
+                    <a href="#">CheckOut</a>
+                </div>
+            </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#customnav" aria-controls="customnav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+        </button>
+    </div>
+    
+    
+    <div class="collapse navbar-collapse " id="customnav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link" href="#"> Pages <i class="fas fa-chevron-down"></i></a>
+            <ul>
+            <li><a class="dropdown-item" href="404.html">404 Page</a></li>
+            <li><a class="dropdown-item" href="price.html">Price</a></li>
+            <li><a class="dropdown-item" href="Login.html">Login Page</a></li>
+            <li><a class="dropdown-item" href="sign-up.html">Sign Up page</a></li>
+            <li><a class="dropdown-item" href="Team.html">Our Team</a></li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link active" href="#">Blog<i class="fas fa-chevron-down"></i></a>
+            <ul>
+            <li><a class="dropdown-item" href="Blog-grid.html">Blog Grid</a></li>
+            <li><a class="dropdown-item" href="blog-details.html">Blog Details</a></li>
+            <li><a class="dropdown-item" href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+            <li><a class="dropdown-item" href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+        
+            
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="service.html">Service</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        </ul>
+        <div class="d-none d-lg-flex">
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="nav-cart">
+                <i class="fas fa-shopping-cart"></i>
+                <span>2</span>
+                <div class="nav-cart-item">
+                    <div class="nav-cart-content">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="images/cart-1.jpg" class="w-100" alt="">
+                            </div>
+                            <div class="col-8">
+                                <a href="#">Bitcoin three</a>
+                                <i class="fas fa-times"></i>
+                                <h6>3 x $3.98</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="nav-cart-content">
+                        <div class="row">
+                            <div class="col-4">
+                            <img src="images/cart-2.jpg" class="w-100" alt="">
+                            </div>
+                            <div class="col-8">
+                            <a href="#">Product Five</a>
+                            <i class="fas fa-times"></i>
+                            <h6>1 x $54.8</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="nav-cart-btn">
+                        <a href="#">View Cart</a>
+                        <a href="#">CheckOut</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</nav>
+</div>
+
+<!-- Navbar End -->
+
+<!-- Breadcrumb part start -->
+
+<section id="Breadcrumb">
+    <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center Breadcrumb-content">
+          <h2><span>Blog </span>Right Sidebar</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><i class="fas fa-angle-right"></i></li>
+            <li>Our Blog</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+  </section>
+
+<!-- Breadcrumb part end -->
+
+<!-- Infinite Scrolling Start -->
+
+<section id="Scrolling" class="fixed-bottom">
+    <div class="container">
+        <div class="row p-0 m-0">
+            <div class="col-12">
+                <ul class="demo">
+                    <li><img src="images/Infinite-Scrolling1.jpg" alt="Infinite Scrolling icon"><p>BTC: <span>€ 8,699.231.08 %</span></p></li>
+                    <li><img src="images/Infinite-Scrolling2.jpg" alt="Infinite Scrolling icon"><p>ETH: <span>Ƀ 0.08160-0.28 %</span></p></li>
+                    <li><img src="images/Infinite-Scrolling3.jpg" alt="Infinite Scrolling icon"><p>XMR: <span>Ƀ 0.02761.25 %</span></p></li>
+                    <li><img src="images/Infinite-Scrolling4.jpg" alt="Infinite Scrolling icon"><p> LTC: <span>Ƀ 0.01956-0.20 %</span></p></li>
+                    <li><img src="images/Infinite-Scrolling1.jpg" alt="Infinite Scrolling icon"><p> DASH: <span>Ƀ 0.055900.26 %</span></p></li>
+                    <li><img src="images/favicon.jpg" alt="Infinite Scrolling icon"><p>LTC: <span>$ 208.06-1.97 %</span></p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Infinite Scrolling End -->
+
+
+<!-- Blog Part Start -->
+
+    <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="blog-item mt-5">
+                        <a href tabindex="0"><h2>HOW CRYPTOCURRENCY BEGUN AND ITS IMPACT TO FINANCIAL TRANSACTIONS</h2></a>
+                        <img src="images/blog-img1.jpg" alt="Blog Image">
+                        <p class="py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quos voluptates asperiores suscipit. Nihil nemo aut consequatur voluptas vel quae, deserunt molestiae dolore iure voluptatibus aliquid voluptate maxime iusto libero.</p>
+                        <div class="blog-sidebar-btn">
+                            <a href="blog-details.html">Read More</a> 
+                        </div> 
+                        <div class="blog-content">
+                            <ul>
+                                <li><a href tabindex="0"><i class="fas fa-user"></i> admin</a></li>
+                                <li><i class="fas fa-calendar-alt"></i> 9 November 2017</li>
+                                <li><a href tabindex="0"> <i class="fas fa-comment"></i> 18 comments</a></li>
+                                <li><i class="fas fa-tags"></i> market, trading</li>
+                                <li><a href tabindex="0"><i class="fas fa-link"></i> permalink</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="blog-item mt-5">
+                        <a href="blog-details.html"><h2>CRYPTOCURRENCY - WHO ARE INVOLVED WITH IT? WORDS ABOUT MEMBERS</h2></a>
+                        <img src="images/blog-img2.jpg" alt="Blog Image">
+                        <p class="py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quos voluptates asperiores suscipit. Nihil nemo aut consequatur voluptas vel quae, deserunt molestiae dolore iure voluptatibus aliquid voluptate maxime iusto libero.</p>
+                        <div class="blog-sidebar-btn">
+                            <a href="blog-details.html">Read More</a> 
+                        </div> 
+                        <div class="blog-content">
+                            <ul>
+                                <li><a href tabindex="0"><i class="fas fa-user"></i> admin</a></li>
+                                <li><i class="fas fa-calendar-alt"></i> 9 November 2017</li>
+                                <li><a href tabindex="0"> <i class="fas fa-comment"></i> 18 comments</a></li>
+                                <li><i class="fas fa-tags"></i> market, trading</li>
+                                <li><a href tabindex="0"><i class="fas fa-link"></i> permalink</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="blog-item mt-5">
+                        <a href="blog-details.html"><h2>RISKS & REWARDS OF INVESTING IN BITCOIN. PROS AND CONS
+                        </h2></a>
+                        <img src="images/blog-img3.jpg" alt="Blog Image">
+                        <p class="py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quos voluptates asperiores suscipit. Nihil nemo aut consequatur voluptas vel quae, deserunt molestiae dolore iure voluptatibus aliquid voluptate maxime iusto libero.</p>
+                        <div class="blog-sidebar-btn">
+                            <a href="blog-details.html">Read More</a> 
+                        </div> 
+                        <div class="blog-content">
+                            <ul>
+                                <li><a href tabindex="0"><i class="fas fa-user"></i> admin</a></li>
+                                <li><i class="fas fa-calendar-alt"></i> 9 November 2017</li>
+                                <li><a href tabindex="0"> <i class="fas fa-comment"></i> 18 comments</a></li>
+                                <li><i class="fas fa-tags"></i> market, trading</li>
+                                <li><a href tabindex="0"><i class="fas fa-link"></i> permalink</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5 justify-content-center">
+                        <div class="col-md-8 text-lg-start text-center">
+                          <p>You have 21,023 Blog yet, Browse more...</p>
+                        </div>
+                        <div class="col-md-4 text-lg-end text-center mt-5 mt-md-0">
+                          <div class="page-num">
+                            <ul>
+                              <li>1</li>
+                              <li>2</li>
+                              <li>3</li>
+                              <li>4</li>
+                              <li><i class="fas fa-angle-right"></i></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-tag">
+                        <h4>CATEGORIES</h4>
+                        <a href tabindex="0">INSURANCE</a>
+                        <hr>
+                        <a href tabindex="0"> ANNOUNCEMENT</a>
+                        <hr>
+                        <a href tabindex="0">BANKING</a>
+                        <hr>
+                        <a href tabindex="0">SECURITY</a>
+                        <hr>
+                        <a href tabindex="0">REGULATION</a>
+                        <hr>
+                        <a href tabindex="0">MARKET UPDATES</a>
+                    </div>
+                    
+                    <div class="blog-tag mt-5">
+                        <h4>ARCHIVES</h4>
+                        <a href tabindex="0">JANUARY 2018</a>
+                        <hr>
+                        <a href tabindex="0">DECEMBER 2017</a>
+                        <hr>
+                        <a href tabindex="0">NOVEMBER 2017</a>
+                        <hr>
+                        <a href tabindex="0">OCTOBER 2017</a>
+                        <hr>
+                        <a href tabindex="0">REGULATION</a>
+                        <hr>
+                        <a href tabindex="0">SEPTEMBER 2017</a>
+                    </div>
+                    <div class="re-post mt-5">
+                        <h4>RECENT POSTS</h4>
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="images/blog-img4.jpg" class="w-100" alt="">
+                            </div>
+                            <div class="col-8">
+                                <a href="blog-details.html">Risks & Rewards Of Investing In Bitcoin</a>
+                                <h6><i class="fas fa-clock"></i>  January 19, 2021</h6>
+                            </div>
+                        </div> 
+                        <hr>
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="images/blog-img3.jpg" class="w-100" alt="">
+                            </div>
+                            <div class="col-8">
+                                <a href tabindex="0">
+                                    Cryptocurrency - Who Are Involved With It?
+                                     </a>
+                                <h6><i class="fas fa-clock"></i> August 03, 2021</h6>
+                            </div>
+                        </div> 
+                        <hr>
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="images/blog-img4.jpg" class="w-100" alt="">
+                            </div>
+                            <div class="col-8">
+                                <a href tabindex="0">
+                                    How Cryptocurrency Begun and Its Impact</a>
+                                <h6><i class="fas fa-clock"></i>  March 27, 2021</h6>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="blog-cetagory mt-5">
+                        <h4>POPULAR TAGS</h4>
+                        <a href tabindex="0">currency</a>
+                        <a href tabindex="0">mining</a>
+                        <a href tabindex="0">transaction</a>
+                        <a href tabindex="0">financial</a>
+                        <a href tabindex="0">security</a>
+                        <a href tabindex="0">crypto</a>
+                        <a href tabindex="0">trading</a>
+                        <a href tabindex="0">wallet</a>
+                        <a href tabindex="0">security</a>
+                        <a href tabindex="0">crypto</a>
+                    </div>
+                </div>
+                    
+                
+            </div>
+        </div>
+    </section>
+
+<!-- Blog Part End -->
+
+
+
+<!-- back to top -->
+
+    <div class="backTop">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+<!-- back to top -->
+
+<!-- Subscribe part start -->
+
+    <section id="subscribe">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3>Get New Insights Weekly</h3>
+                    <p>News letter dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Enter your email Email Your Address </p>
+                </div>
+                <div class="col-lg-6 subscribe-input mt-5">
+                    <div class="subscribe-input">
+                        <input type="email" placeholder="Enter Your Email">
+                        <button type="submit">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Subscribe part End -->
+
+
+<!-- footer part start -->
+
+    <footer class="top_footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 col-12 mt-4 pt-md-4 footer1">
+                <a href="index.html" class="">
+                    <img src="images/logo-dark.png" alt="Footer Logo">
+                </a>
+                
+                <p class="py-3">With over 10 years of experience in construction, we partner with owners and design professionals to build high-quality projects.</p>
+                
+                <ul>
+                    <li><a href="https://www.facebook.com/niloy74779/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://twitter.com/mdniloy74779" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/md-niloy-0018821a3/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://www.instagram.com/mdniloy74779/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div> 
+
+            <div class="col-lg-2 col-sm-6 col-12 mt-4 footer3 ps-lg-0 ps-sm-5">
+                <h4>Useful Links</h4>
+            <ul>
+                <li><i class="fas fa-angle-double-right"> </i> <a href="about.html">About</a></li>
+                <li><i class="fas fa-angle-double-right"> </i> <a href="service.html">Services</a></li>
+                <li><i class="fas fa-angle-double-right"> </i> <a href="Blog-grid.html">Blog</a></li>
+                <li><i class="fas fa-angle-double-right"> </i> <a href="Team.html">Our Team</a></li>
+                <li><i class="fas fa-angle-double-right"> </i> <a href="contact.html">Contact Us</a></li>
+            </ul>
+            </div> 
+
+            <div class="col-lg-3 col-sm-6 col-12 mt-4 footer2">
+                <h4>Contact</h4>
+
+                <div class=" footer2_location">
+                    <i class="fas fa-clock"></i>
+                <div>
+                    <span>Mon - Fri: 8.00am 6.00pm</span>
+                </div>
+            </div>
+                <div class=" footer2_location">
+                        <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <span>112 W 34th St, New York</span>
+                    </div>
+                </div>
+                <div class="footer2_location">
+                        <i class="fas fa-phone"></i>
+                    <div>
+                        <span>(+1) 212-946-2707</span>
+                    </div>
+                </div>
+                <div class="footer2_location">
+                        <i class="fa fa-envelope"></i>
+                    <div>
+                        <span>info@BauerX.com</span>
+                    </div>
+                </div>
+
+            
+                        
+            </div> 
+
+            <div class="col-lg-3 col-sm-6 col-12 mt-4 footer4">
+                <h4>Latest Blogs</h4>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="images/blog-img4.jpg" class="w-100" alt="">
+                    </div>
+                    <div class="col-8">
+                        <a href="blog-details.html">Lorem ipsum dolor sit.</a>
+                        <h6><i class="fas fa-clock"></i>  January 19, 2021</h6>
+                    </div>
+                </div> 
+                <div class="row mt-3">
+                    <div class="col-4">
+                        <img src="images/blog-img2.jpg" class="w-100" alt="">
+                    </div>
+                    <div class="col-8">
+                        <a href="blog-details.html">Lorem ipsum dolor sit.</a>
+                        <h6><i class="fas fa-clock"></i>  January 19, 2021</h6>
+                    </div>
+                </div> 
+            </div> 
+
+        </div>
+    </div>
+    </footer>
+
+    <footer class="last_footer d-md-block d-none">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-8">
+                <p>© Bauer Construction. All rights reserved.</p>
+            </div>
+            <div class="col-4 text-end">
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use </a></li>
+                </ul>
+            </div> 
+        </div>
+    </div>
+    </footer>
+
+<!-- footer part End -->
+
+
+
+
+
+    <!-- Link Jquery -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <!-- link Couter plugin -->
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <!-- slick slider js -->
+    <script src="js/slick.min.js"></script>
+    <!-- Infinite Scrolling Js -->
+    <script src="js/infiniteslidev2.js"></script>
+    <!-- Link Funcy box Plugin -->
+    <script src="js/jquery.fancybox.js"></script>
+    <!-- Link bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- link poco slider -->
+    <script src="js/jquery.pogo-slider.js"></script>
+    <!-- link defult js -->
+    <script src="js/script.js"></script>
+</body>
+</html>

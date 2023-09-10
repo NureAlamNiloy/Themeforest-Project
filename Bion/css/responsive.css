@@ -1,0 +1,782 @@
+
+
+@media(min-width:992px) and (max-width:1199px) { /* lg device */
+    p{
+        font-size: 15px;
+    }
+    /* Section heading start */
+
+    .section-heading p {
+        padding: 0px 190px;
+    }
+
+    /* banner part */
+    .banner_content h2{
+        font-size: 50px;
+        line-height: 78px;
+    }
+    /* buy now part */
+
+    .buy-now-content h2{
+        font-size: 29px;
+        letter-spacing: 1px;
+    }
+    .buy-now-content h3{
+        font-size: 22px;
+    }
+    .buy-now-form h2{
+        font-size: 21px;
+        line-height: 30px;
+        padding-bottom: 10px;
+    }
+
+
+    /* blog grid part */
+
+    .blog-grid-tag i,
+    .blog-grid-tag a{
+        font-size: 13px;
+    }
+    .blog-grid-content h3{
+        font-size: 18px;
+        text-align: center;
+    }
+    .blog-grid-content{
+        padding: 15px;
+    }
+    .blog-grid-content p{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    /* about page */
+
+    .about-content .nav-link{
+        font-size: 15px;
+        padding: 5px;
+        margin-right: 10px;
+    }
+
+    /* service page */
+    .service-text h2{
+    font-size: 30px;
+    }
+    .service-text p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .srvice-detail-left h2{
+        font-size: 28px;
+        line-height: 52px;
+    }
+    .srvice-detail-left p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .srvice-detail-right h4{
+        font-size: 20px;
+    }
+    
+    .srvice-detail-right ul li{
+        
+        font-size: 14px;
+    }
+    .service-item h2{
+        font-size: 20px;
+    }
+
+    /* sign up page */
+
+    .sign-up-from{
+        padding: 30px 20px;
+        
+    }
+    .sign-up-heading h3{
+        font-size: 30px;
+    } 
+
+    .expart-profile h2{
+        font-size: 25px;
+    }
+
+    /* blog details */
+
+    .blog-comment.c-10{
+        margin-left: 100px !important;
+    }
+  
+
+  
+    
+}/* lg device */
+
+
+@media(min-width:768px) and (max-width:991px) { /* md device */
+   
+    /* Section heading start */
+
+    .section-heading p {
+        padding: 0px 80px;
+    }
+
+    /* banner part */
+    .banner_content h2{
+        font-size: 60px;
+        line-height: 78px;
+    }
+    
+    /* navbar part */
+    #customnav ul li ul{
+        top: 44px;
+        right: 20%;
+    }
+
+    /* price table part */
+    .table tr{
+        font-size: 14px !important;
+    }
+    
+    .up-icon{
+        color: #3DBE29;
+        font-size: 19px;
+    }
+    .down-icon{
+        color: #E21717;
+        font-size: 19px;
+    }
+
+    /* Counter Part */
+    .counter_items .counter_number{
+        font-size: 60px;
+    }
+    .counter_items p{
+        font-size: 17px;
+    }
+
+    /* about page */
+
+    .about-content{
+        margin-top: 100px;
+    }
+
+    /* blog details */
+
+    .blog-comment.c-10{
+        margin-left: 80px !important;
+    }
+
+    
+    
+
+
+
+}/* md device */
+
+
+
+@media(min-width:576px) and (max-width:767px) { /* sm device */
+  
+    /* Section heading start */
+
+    .section-heading h2 {
+        font-size: 28px;
+    }
+    .section-heading p {
+        font-size: 16px;
+        padding: 0px ;
+    }
+
+    /* Animation Button */
+    
+    .animation-btn:hover a{
+        letter-spacing: 1px;
+    }
+
+    /* banner part */
+    .banner_content h2{
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .slider_btn a{
+        padding: 12px;
+    }
+
+    /* navbar part */
+    #customnav ul li ul{
+        top: 44px;
+        right: 15%;
+    }
+
+     /* price table part */
+     .table tr{
+        font-size: 14px !important;
+    }
+    
+    .up-icon{
+        color: #3DBE29;
+        font-size: 19px;
+    }
+    .down-icon{
+        color: #E21717;
+        font-size: 19px;
+    }
+
+    /* buy now part */
+
+    .buy-now-content h2{
+    font-size: 30px;
+    letter-spacing: 1px;
+    }
+    .buy-now-form h2{
+        font-size: 25px;
+        color: var(--main-color);
+    }
+    .buy-now-form{
+        background-color: var(--bg-color-2);
+    }
+    .buy-now-form p{
+        font-size: 15px;
+    }
+    .buy-now-btn.animation-btn{
+        margin-top: 50px;
+    }
+    .buy-now-btn.animation-btn a{
+        color: var(--white);
+    }
+
+    
+
+    /* about page */
+    
+    .about-content{
+        margin-top: 100px;
+    }
+    
+  
+
+
+
+
+
+}/* sm device */
+
+
+
+
+@media(max-width:575px) { /* xs device */
+   
+    /* Section heading start */
+
+    .section-heading h2 {
+        font-size: 23px;
+    }
+    .section-heading p {
+        font-size: 13px;
+        padding: 0px;
+    }
+
+    /* top header */
+    .top-header-account,
+    .header-icon{
+        margin-top: 10px;
+    }
+
+     #customnav ul li ul{
+        top: 44px;
+        right: 20%;
+    }
+    .search-bar i{
+        font-size: 14px;
+        margin: 0 7px;
+    }
+    .search_box form{
+        width: 400px;
+    }
+    .close{
+        top: 30px;
+        right: 30px;
+    }
+    
+    .search_box input{
+        font-size: 15px;
+        padding: 0px 30px;
+    }
+
+    /* banner part */
+    .banner_content h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .slider_btn a{
+        padding: 8px;
+        margin-right: 20px;
+        font-size: 12px;
+    }
+    #banner .swiper-button-next,
+    #banner .swiper-button-prev{
+    display: none;
+    }
+
+    /* buy now part */
+
+      .buy-now-content h2{
+        font-size: 19px;
+        }
+        .buy-now-content h3{
+            font-size: 14px;
+        }
+        .buy-now-form h2{
+            font-size: 21px;
+            line-height: 30px;
+            padding-bottom: 10px;
+        }
+        .buy-now-content p{
+            font-size: 13px;
+            text-align: justify;
+            line-height: 18px;
+        }
+        .buy-now-content  ul li{
+            font-size: 13px;
+        }
+        .buy-now-form{
+            background-color: var(--bg-color-2);
+        }
+        .buy-now-form h2{
+            font-size: 20px;
+            color: var(--main-color);
+        }
+        .buy-now-form p{
+            font-size: 14px;
+        }
+        .buy-now-btn.animation-btn{
+            margin-top: 50px;
+        }
+        .buy-now-btn.animation-btn a{
+            color: var(--white);
+        }
+        
+    /* footer part */
+    .footer4 a{
+        font-size: 20px;
+    }
+    .footer4 h6{
+        font-size: 17px;
+    }
+    /* about page */
+
+    .about-content .nav-link{
+        font-size: 13px;
+        padding: 7px;
+        margin-right: 5px;
+    }
+    .about-content{
+        margin-top: 100px;
+    }
+
+    .about-img img{
+        width: 100%;
+    }
+
+    /* SignUp page */
+
+    .sign-up-content i{
+        font-size: 40px;
+    }
+    .sign-up-content h3{
+        font-size: 20px;
+    }
+    
+    .sign-up-from{
+        padding: 30px 20px;
+        
+    }
+    .sign-up-heading h3{
+        font-size: 30px;
+    } 
+    
+    /* blog sidebar */
+
+    .blog-item h2{
+        font-size: 20px;
+    }
+    .blog-item p{
+        font-size: 16px !important;
+    }
+    .blog-item p strong{
+        font-size: 17px !important;
+    }
+
+    .blog-athor h5{
+        font-size: 17px;
+    }    
+    .blog-athor p{
+        font-size: 13px !important;
+    }  
+    .blog-comment.c-10{
+        margin-left: 0px !important;
+    }
+
+    /* blog details */
+    .comment-from{
+        padding: 20px;
+    }
+    /* chose us */
+    .chose-us-card:hover{
+        transform: scale(1);
+    }
+
+    /* Price Page */
+    .pricing .nav-link{
+        height: 70px;
+        width: 70px;
+        list-style: 70px;
+        margin: 20px 0;
+        transition: .5s;
+    }
+    .pricing .nav-link i{
+        font-size: 30px;
+    }
+    .pricing .nav-link.active{
+         transform: translateX(30px);
+    }
+    .pricing .tab-content{
+        margin-left: 30px;
+    }
+    .package-items{
+        background: #131519;
+        padding: 20px 0 90px 0;
+    }
+    .package-items h4{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .pricing-package{
+        height: 100px;
+        width: 100px;
+        line-height: 60px;
+        margin-top: -50px;
+        border: 7px solid var(--white);
+    }
+    .pricing-package::after {
+        top: -10%;
+        left: -10%;
+        height: 105px;
+        width: 105px;
+    }
+    .pricing-package h5{
+        padding-top: 14px;
+        font-size: 20px;
+    }
+    .pricing-package p{
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .pricing-icon{
+        padding: 0px 7px;
+    }
+    .pricing-icon ul li{
+        font-size: 12px;
+        line-height: 20px;
+        padding-bottom: 5px;
+    }
+    .pricing-icon ul li i{
+        height: 22px;
+        width: 22px;
+        line-height: 22px;
+        margin-right: 7px;
+        font-size: 11px;
+    }
+    .buy-now  a{
+        font-size: 20px;
+    }
+    .proces-item img{
+        width: 100%;
+    }
+
+    /* service page */
+    .srvice-detail-hash p{
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .srvice-detail-right h4{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .srvice-detail-right ul li{
+        margin: 10px 0;
+        color: #fefefe;
+        font-size: 11px;
+    }
+    .srvice-detail-right ul li i{
+        height: 17px;
+        font-size: 10px;
+        width: 17px;
+        line-height: 17px;
+        margin-right: 4px;
+    }
+    .proces-item h4{
+        font-size: 24px;
+    }
+    
+
+
+} /* xs device */
+
+
+
+
+@media(max-width:375px){
+    /* top header */
+    #top-header{
+        display: none;
+    }
+
+    /* navbar */
+
+    .search-bar i{
+        font-size: 14px;
+        margin: 0 7px;
+    }
+    .search_box form{
+        width: 300px;
+    }
+    .close{
+        top: 30px;
+        right: 30px;
+    }
+    
+    .search_box input{
+        font-size: 15px;
+        padding: 0px 30px;
+    }
+
+     /* Counter Part */
+     .counter_items .counter_number{
+        font-size: 45px;
+    }
+    .counter_items p{
+        font-size: 14px;
+    }
+
+    /* faq part */
+
+    #faq .accordion-button{
+        font-size: 16px;
+    }
+    #faq .collapsed{
+        font-size: 16px;
+    }
+    #faq .accordion-item .accordion-body{
+        font-size: 13px;
+    }
+    /* blog grid part */
+
+    .blog-grid-tag i,
+    .blog-grid-tag a{
+    font-size: 13px;
+    }
+    .blog-grid-content h3{
+    font-size: 18px;
+    text-align: center;
+    }
+    .blog-grid-content{
+    padding: 15px;
+    }
+    .blog-grid-content p{
+    font-size: 15px;
+    text-align: center;
+    }
+   
+    /* buy now part */
+
+    .buy-now-content h2{
+    font-size: 19px;
+    }
+    .buy-now-content h3{
+        font-size: 14px;
+    }
+    .buy-now-form h2{
+        font-size: 21px;
+        line-height: 30px;
+        padding-bottom: 10px;
+    }
+    .buy-now-content p{
+        font-size: 13px;
+        text-align: justify;
+        line-height: 18px;
+    }
+    .buy-now-content  ul li{
+        font-size: 13px;
+    }
+    .buy-now-form{
+        background-color: var(--bg-color-2);
+    }
+    .buy-now-form h2{
+        font-size: 20px;
+        color: var(--main-color);
+    }
+    .buy-now-form p{
+        font-size: 14px;
+    }
+    .buy-now-btn.animation-btn{
+        margin-top: 50px;
+    }
+    .buy-now-btn.animation-btn a{
+        color: var(--white);
+    }
+
+    /* live chart */
+
+    #live-chart .nav-link{
+        font-size: 13px;
+    }
+
+      /* footer part */
+      .footer4 a{
+        font-size: 18px;
+    }
+    .footer4 h6{
+        font-size: 14px;
+    }
+    /* Subscrive Input */
+
+    #subscribe h3{
+        font-size: 23px;
+        padding: 20px 0;
+        font-weight: 700;
+    }
+    .subscribe-input input{
+        padding: 13px;
+        font-size: 14px;
+    }
+    .subscribe-input button {
+        padding: 10px;
+        font-size: 14px;
+        bottom: 4px;
+        right: 4px;
+    }
+
+    /* footer part  */
+
+    .footer1 p{
+        font-size: 14px;
+    }
+
+    /* about page */
+
+      .about-content .nav-link{
+        font-size: 11px;
+        padding: 3px;
+        margin-right: 5px;
+    }
+    .about-content p{
+        font-size: 14px;
+    }
+    .about-content{
+        margin-top: 100px;
+    }
+
+     /* SignUp page */
+
+     .sign-up-content i{
+        font-size: 25px;
+    }
+    .sign-up-content h3{
+        font-size: 19px;
+    }
+    
+    .sign-up-from{
+        padding: 20px 10px;
+        
+    }
+    .sign-up-heading h3{
+        font-size: 24px;
+    } 
+    .sign-up-content{
+        padding: 10px;
+    }
+    
+    .sign-up-content p{
+        font-size: 13px ;
+        text-align: justify;
+    }
+
+    .sign-up-icon ul li i{
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        font-size: 15px;
+    }
+
+    /* login page */
+    .login-media{
+        display: none;
+    }    
+    .login-btn{
+        width: 100%;
+    }
+    .login-from h6{
+        font-size: 14px;
+    } 
+
+    /* contact Page */
+    .contact-address ul li i{
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+    }
+    .contact-address ul li p{
+        font-size: 14px;
+        margin-left: 10px;
+        line-height: 20px;
+    }
+    .contact-from{
+        padding: 30px 10px;
+        
+    }
+    .contact-heading h3{
+        font-size: 36px;
+        font-weight: 600;
+        color: var(--white);
+    } 
+    .contact-heading p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .contact-heading h3{
+        font-size: 26px;
+    } 
+    .search-bar{
+        display: none;
+    }
+
+    /* service page */
+    .service-text h2{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .srvice-detail-left h2{
+        font-size: 18px;
+        line-height: 33px;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
